@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 
-int main(int argc, char *argv[])
+int main()
 {
 	char buf[3];
-	strcpy (buf, argv[0]);
+	strcpy (buf, 'AAAA');
 	printf("%s", buf);
 }
